@@ -1,0 +1,98 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: rgb(183, 221, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cartao {
+    background: linear-gradient(145deg, #fffefa, #ffe0ec);
+    border-radius: 5px 20px 50px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    padding: 40px 30px;
+    width: 380px;
+    text-align: center;
+    border: 5px solid #ffb6c1;
+    position: relative;
+}
+
+.icon-ovinho {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 50px;
+    opacity: 5;
+}
+
+.icon-ovinho img {
+    width: 100%;
+    height: auto;
+    opacity: 5;
+}
+
+.icon-ovinho img:hover {
+    opacity: 1;
+}
+
+.ovo02 {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 50px;
+    opacity: 8;
+}
+
+.ovo02 img {
+    width: 100%;
+    height: auto;
+    opacity: 8;
+}
+
+.ovo02 img:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 2.3em;
+    color: #d63484;
+    text-shadow: 3px 10px 4px #ffa6c9;
+    margin: 15px 0 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff7b00;
+    text-shadow: 1px 1px 3px #ffd580;
+    margin-bottom: 20px;
+}
+
+
+.icon-coelinho {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 80px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.icon-coelinho img {
+    width: 100%;
+    height: auto;
+}
+
+.icon-coelinho:hover {
+    opacity: 1;
+}
+
+p {
+    font-size: 20px;
+    color: #5f4b8b;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
