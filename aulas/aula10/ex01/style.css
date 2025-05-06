@@ -1,0 +1,97 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: rgb(183, 221, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.cartao {
+    background: #ffe0ec;
+    border-radius: 5px 20px 50px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    padding: 40px 30px;
+    width: 380px;
+    text-align: center;
+    border: 5px solid #ffb6c1;
+    position: relative;
+}
+
+.icon-ovinho img,
+.icon-ovo02 img,
+.icon-coelinho img {
+    transition: transform 0.6s ease;
+    opacity: 0.8;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-ovinho img {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.icon-ovo02 img {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+}
+
+.icon-coelinho img {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 80px;
+    height: auto;
+}
+
+.icon-ovinho img:hover,
+.icon-ovo02 img:hover,
+.icon-coelinho img:hover {
+    transform: rotate(360deg);
+}
+
+h1 {
+    font-size: 2.3em;
+    color: #d63484;
+    text-shadow: 3px 10px 4px #ffa6c9;
+    margin: 15px 0 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff7b00;
+    text-shadow: 1px 1px 3px #ffd580;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: #5f4b8b;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#botao-cores,
+#botao-confete {
+    border-radius: 20px;
+    background-color: #ffa6c9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+#botao-cores:hover,
+#botao-confete:hover {
+    background-color: #ff69b4;
+    transform: scale(1.05);
+}

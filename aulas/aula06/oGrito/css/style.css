@@ -1,0 +1,41 @@
+h2{
+    border-bottom: 2px solid #4c4c4c;
+    text-align: left;
+    font-family: monospace;
+}
+
+h1{
+    background-color: antiquewhite;
+    text-align: left;
+    color: black;
+    font-family: monospace;
+  
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+figure{
+    text-align: left;
+}
+
+h4{
+    font-family: monospace;
+
+}
+
+body{
+    background-color: rgb(244, 198, 198);
+}
+
+#header {
+    width: 100%;
+}
+
+#texto {
+    width: 30%;
+    float: right;
+}
