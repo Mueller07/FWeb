@@ -1,0 +1,10 @@
+{
+    "usuarios": [
+      {"nome": "Ana", "idade": 25, "cpf": "123.456.789-00", "telefone": "99999-0001"},
+      {"nome": "Bruno", "idade": 30, "cpf": "234.567.890-11", "telefone": "99999-0002"},
+      {"nome": "Carlos", "idade": 22, "cpf": "345.678.901-22", "telefone": "99999-0003"},
+      {"nome": "Diana", "idade": 28, "cpf": "456.789.012-33", "telefone": "99999-0004"},
+      {"nome": "Eduardo", "idade": 35, "cpf": "567.890.123-44", "telefone": "99999-0005"}
+    ]
+  }
+  

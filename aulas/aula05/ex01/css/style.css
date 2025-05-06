@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.container h1 img {
+    height: 150px;
+}
+
+.menu-opcoes{
+    text-align: left;
+    display: flex;
+    word-spacing: 15px;
+    margin: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: color 0.3s;
+}
+
+.menu-opcoes ul li a:hover {
+    color: #c686ff;
+}
