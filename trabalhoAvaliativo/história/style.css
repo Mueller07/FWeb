@@ -1,0 +1,155 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(42, 42, 42);
+    padding: 10px 0;
+}
+
+header .logo {
+    max-width: 150px;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+form .form-control {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.featurette {
+    margin-bottom: 60px;
+    margin: 25px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.featurette-heading {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.featurette-heading span {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.featurette p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #495057;
+}
+
+.featurette img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.row.featurette {
+    display: flex;
+    align-items: center;
+}
+
+.text-bg {
+    background-color: rgb(42, 42, 42);
+}
+
+.text-end a {
+    color: black;
+    background-color: rgb(127, 127, 127);
+    opacity: 100%;
+    border: 0;
+}
+
+.menu:hover {
+    color: gray;
+}
+
+.menu:focus {
+    color: grey;
+}
+
+.logo {
+    width: 60px;
+    height: 50px;
+}
+
+.lupa-busca {
+    width: 20px;
+    height: 20px;
+}
+
+.carousel-item {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.slide1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)),
+    url('https://i.postimg.cc/3wN283Bc/gunsn.jpg');
+}
+
+.slide2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)),
+    url('https://i.postimg.cc/dVBzMjH9/kkk.jpg');
+}
+
+.slide3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)),
+    url('https://i.postimg.cc/k5JfxryQ/axlRose.jpg');
+}
+
+.btn-primary {
+    color: black;
+    background-color: rgb(135, 135, 82);
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: rgb(57, 57, 32);
+}
+
+footer {
+    color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+footer .nav-item a {
+    color: black;
+}
+
+footer .nav-item a:hover {
+    color: gray;
+}
