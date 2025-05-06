@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-window {
+    background-image: url('https://i.postimg.cc/3wDRzyw4/image.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 100vh;
+    background-color: rgb(201, 151, 229);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,32 @@
+{
+  "pessoas": [
+      {
+          "nome": "Fulano",
+          "idade": 30,
+          "local": {
+              "cidade": "São Leopoldo",
+              "UF": "Rio Grande do Sul",
+              "País": "Brasil"
+          }
+      },
+      {
+          "nome": "Ciclano",
+          "idade": 25,
+          "local": {
+              "cidade": "Sapucaia",
+              "UF": "Rio Grande do Sul",
+              "País": "Brasil"
+          }
+      },
+      {
+          "nome": "Beutrano",
+          "idade": 20,
+          "local": {
+              "cidade": "Canoas",
+              "UF": "Rio Grande do Sul",
+              "País": "Brasil"
+          }
+      }
+  ]
+      
+}

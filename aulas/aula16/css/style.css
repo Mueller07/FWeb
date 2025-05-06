@@ -1,0 +1,7 @@
+.item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain; 
+    max-height: 100px; 
+}
